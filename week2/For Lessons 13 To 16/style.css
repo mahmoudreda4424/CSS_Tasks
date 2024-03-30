@@ -1,0 +1,42 @@
+
+
+/*  التكليف 01  */
+.parent .child .title {
+  color: red;
+}
+
+.parent .title {
+  color: blue;
+}
+.parent p,
+.title {
+  color: green;
+}
+
+/* .title {
+  color: green;
+} */
+
+
+/* **************************************************** */
+
+
+/*  التكليف 02 */
+
+.Assignment02 .first_title,
+.second_title,
+.third_title,
+.forth_title {
+  color: white;
+  padding: 25px;
+  background-color: brown;
+  margin: 10px 0;
+  max-width: 400px;
+  max-height: 40px;
+  width: fit-content;
+  overflow: hidden;
+}
+
+
+/* **************************************************** */
+

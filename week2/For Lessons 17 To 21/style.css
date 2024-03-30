@@ -1,0 +1,54 @@
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+/* التكليف 01*/
+
+.p {
+  text-shadow: 0.5px 0.5px red, 1px 1px blue, 1.5px 1.5px blueviolet;
+  text-align: center;
+}
+
+/* التكليف 02 */
+.one,
+.two,
+.three {
+  text-align: center;
+}
+.one {
+  text-transform: uppercase;
+}
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform: lowercase;
+}
+
+/* التكليف 03 */
+.first,
+.second,
+.third {
+  background-color: #eeeeee;
+  width: 400px;
+  padding: 25px;
+  margin: 25px 0;
+}
+
+.third {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* التكليف 04 */
+a {
+  color: white;
+  background-color: #009688;
+  border-bottom: 5px solid #00514a;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: 50%;
+}
