@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment03</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .space {
+            width: 400px;
+            margin: 20px auto;
+            list-style: none;
+        }
+
+        .one,
+        .two,
+        .three {
+            background-color: #eee;
+            padding: 15px 10px;
+            margin: 15px 0px;
+        }
+
+        ol {
+            margin: 5px 0;
+        }
+
+        ol li {
+            background-color: white;
+            padding: 5px;
+            margin-bottom: 5px;
+
+        }
+
+
+        li ul {
+            list-style: circle;
+            padding-right: 5px;
+        }
+
+        li ul li {
+            padding: 5px;
+            background-color: white;
+            margin: 5px 0;
+            list-style-position: inside;
+        }
+
+        .three ul {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="space">
+        <li class="one">
+            HTML
+            <ol start="10">
+                <li>Slim</li>
+                <li>Pugjs</li>
+                <li>HAML</li>
+            </ol>
+        </li>
+        <li class="two">
+            CSS
+            <ol type="I" start="5">
+                <li>SASS</li>
+                <li>LESS</li>
+                <li>PostCSS</li>
+            </ol>
+        </li>
+        <li class="three">
+            JavaScript
+            <ul>
+                <li>Vuejs</li>
+                <li>Sveltejs</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

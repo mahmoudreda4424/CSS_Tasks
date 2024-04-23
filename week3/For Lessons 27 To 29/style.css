@@ -1,0 +1,45 @@
+.parent {
+    width: 800px;
+    background-color: #eeeeee;
+    margin: 100px auto;
+}
+
+.full-width,
+.half,
+.third,
+.quarter {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 15px 0;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.full-width{
+    width: calc(100% - 30px);
+
+
+}
+
+.third {
+    width: calc((100% - 60px)/3);
+
+
+}
+
+.half {
+    width: calc((100% - 45px)/2);
+
+}
+
+.quarter {
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+
+}
+
+.clear {
+    clear: both;
+}
